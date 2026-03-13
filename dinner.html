@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- link the bootstrap files  -->
+     <link rel="stylesheet" href="/css/bootstrap.css">
+     <!-- script  -->
+     <script src="js/bootstrap.js"></script>
+</head>
+<body>
+      <!-- All the content of the the app  -->
+
+    <!-- navigation section starts here  -->
+                  <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <!-- company name/logo  -->
+                     <a href="" class="navbar-brand">
+                        <b>Joy Delicacies</b>
+                     </a>
+
+                     <!-- harmburger icon for the reduced size  -->
+                      <button
+                      class="navbar-toggler"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarcollapse"
+                      >
+                        <span class="navbar-toggler-icon">1</span>
+                    </button>
+                      
+                      <!-- menu items  -->
+                        <div class="collapse navbar-collapse" id="navbar-collapse">
+                            <div class="navbar-nav">
+                                <a href="index.html" class="nav-link active">Home</a>
+                                <a href="dinner.html" class="nav-link active">Services</a>
+                                <a href="" class="nav-link">About us</a>
+                                <a href="" class="nav-link">Sign in</a>
+                            </div>
+
+                       </div>
+                </nav> 
+
+        <!-- carousel section starts here  -->
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                    <!-- wrapper class  -->
+                    <div class="carousel-inner" style="max-height: 600px;">
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                            <img src="images/pexels-pixabay-208537.jpg" alt=" image 1" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <img src="images/pexels-pixabay-208537.jpg" alt="image 2" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <img src="images/pexels-pixabay-162994.jpg" alt="image 3" class="img-fluid">
+                        </div>
+                    </div>
+
+                   
+                </div>
+                
+                 <!-- end of wrapper  -->
+                  
+                <a href="#mycarousel"
+                 data-bs-slide="prev"
+                 class="carousel-control-prev"
+                 >
+                    <span class="carousel-control-prev-icon bg-success" ></span>
+                </a>
+                 <a href="#mycarousel"
+                 data-bs-slide="next"
+                 class="carousel-control-next"
+                 >
+                 <span class="carousel-control-next-icon bg-success"></span>
+                 </a>
+            </div>
+        </div>
+    </section>
+       <section>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="cards">
+                    <div class=" card-header">
+                        <h6>Sweet pizza</h6>
+
+                    </div>
+                    <div class="card-body">
+                        <img src="images/pexels-pixabay-208537.jpg" alt="chicken bowl" height="200px" width="200px">
+                    </div>
+                    <div class="card-footer">
+                        <p>The   recipe was so easy</p>
+
+                        
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Vitamin b5</li>
+                            <li class="list-group-item">Tomatoes</li>
+                            <li class="list-group-item">sauced creamy cheese</li>
+                        </ul>
+                        <span class="badge bg-warning">Addcalt</span>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cards">
+                    <div class="card-header">
+                        <h6>BOSI PURE SAUCE</h6>
+                    </div>
+                    <div class="body">
+                        <img src="images/pexels-pixabay-248444.jpg" alt="coffee cup" height="200px" width="200">
+                        
+                    </div>
+                    <div class="card-footer">
+                        <p>Use the chopsticks please </p>
+                            <ul class="list-group list-group-flush">
+                            <li class="list-group-item">sauce</li>
+                            <li class="list-group-item">oats</li>
+                            <li class="list-group-item">cheese</li>
+                        <span class="badge bg-warning">Addcalt</span>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-header">
+                    <h6> CLASSIC DESERTS</h6>
+                </div>
+                <div class="card-body">
+                    <img src="images/pexels-pixabay-361184.jpg" alt="" height="200px" width="200px">
+                </div>
+                <div class="card-footer">
+                    <p>Incredible deserts containing</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">oranges</li>
+                        <li class="list-group-item">sauced meat balls</li>
+                        <li class="list-group-item">sliced cake</li>
+                    </ul>
+                    <span class="badge bg-warning">addcalt</span>
+
+                </div>
+            </div>
+
+        </div>
+        
+      </section>
+             <section class="row text-white bg-success p-4">
+        <!-- my coloumns starts here  -->
+         <!-- column 1-->
+          <div class="col-md-4">
+            <h4 class="text-center">GET YOUR DINNER FOR FREEE</h4>
+            <p style="color: #000; text-decoration-line: underline;">A R E Y O U A F O O D I E ?</p>
+            <h2 class="small">Healthy, tasty, scrumptous meals are waiting for you. Start eating now.You can cause or pause anytime.The first meal is on us</h2>
+            <form >
+                <input type="email" placeholder="enter your email" class="form-control">
+                <br>
+                <textarea placeholder="leave a comment" class="form-control" rows="7"></textarea>
+                <br>
+                <input type="button" value="send message" class="btn btn-danger">
+
+            </form>
+          </div>
+          <div class="col-md-4">
+            <img src="" alt="">
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-center">stay connected</h4>
+            <a href="https://www.facebook.com">
+                <img src="images/f" alt="facebook icon">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="images/in.png" alt="instagramicon">
+            </a>
+            <a href="https:www.twitter.com">
+                <img src="images/x.png" alt=" x icon">
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod autem esse debitis, architecto delectus numquam id a officia deserunt tenetur. Ea, porro esse voluptatem necessitatibus quod maxime dicta repudiandae odit.</p>
+
+          </div>
+
+    </section>
+    <footer>
+        <div class="row bg-danger text-white">
+            <div class="col-md-4">
+                
+                
+                <h4> stay in touch with</h4>
+                <ul>
+                    <li>
+                        <a href="+254113191087"> contact us </a>
+                        
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Our account</h4>
+                <ul>
+                   <li>
+                    <a href="joy@wang.com">Email account</a>
+                   </li>
+                </ul>
+            
+            </div>
+            <div class="col-md-4">
+                <h4>Company</h4>
+                <li>
+                    <a href="joys company"> Company name</a>
+                </li>
+            </div>
+            <div class="col-md-12 text-center p-4">
+                <b>Developed by Joy &COPY;2026 . All rights reserved </b>
+            </div> 
+
+            </div>
+        </div>
+     </footer>
+</body>
+</html>
